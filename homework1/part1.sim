@@ -1,0 +1,218 @@
+{
+  "version": "1.8.1",
+  "globalBitSize": 1,
+  "clockSpeed": 1,
+  "circuits": [
+    {
+      "name": "xor",
+      "components": [
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.gates.NotGatePeer",
+          "x": 17,
+          "y": 8,
+          "properties": {
+            "Label location": "NORTH",
+            "Negate 0": "No",
+            "Label": "",
+            "Direction": "EAST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.gates.NotGatePeer",
+          "x": 17,
+          "y": 23,
+          "properties": {
+            "Label location": "NORTH",
+            "Negate 0": "No",
+            "Label": "",
+            "Direction": "EAST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.gates.AndGatePeer",
+          "x": 24,
+          "y": 8,
+          "properties": {
+            "Negate 1": "No",
+            "Label location": "NORTH",
+            "Negate 0": "No",
+            "Number of Inputs": "2",
+            "Label": "",
+            "Direction": "EAST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.gates.AndGatePeer",
+          "x": 24,
+          "y": 21,
+          "properties": {
+            "Negate 1": "No",
+            "Label location": "NORTH",
+            "Negate 0": "No",
+            "Number of Inputs": "2",
+            "Label": "",
+            "Direction": "EAST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.gates.OrGatePeer",
+          "x": 37,
+          "y": 15,
+          "properties": {
+            "Negate 1": "No",
+            "Label location": "NORTH",
+            "Negate 0": "No",
+            "Number of Inputs": "2",
+            "Label": "",
+            "Direction": "EAST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.PinPeer",
+          "x": 10,
+          "y": 8,
+          "properties": {
+            "Label location": "WEST",
+            "Label": "a",
+            "Is input?": "Yes",
+            "Direction": "EAST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.PinPeer",
+          "x": 10,
+          "y": 23,
+          "properties": {
+            "Label location": "WEST",
+            "Label": "b",
+            "Is input?": "Yes",
+            "Direction": "EAST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.PinPeer",
+          "x": 45,
+          "y": 16,
+          "properties": {
+            "Label location": "EAST",
+            "Label": "c",
+            "Is input?": "No",
+            "Direction": "WEST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.misc.Text",
+          "x": 47,
+          "y": 6,
+          "properties": {
+            "Text": "XOR circuit created with CircuitSim"
+          }
+        }
+      ],
+      "wires": [
+        {
+          "x": 12,
+          "y": 9,
+          "length": 2,
+          "isHorizontal": true
+        },
+        {
+          "x": 12,
+          "y": 24,
+          "length": 3,
+          "isHorizontal": true
+        },
+        {
+          "x": 14,
+          "y": 9,
+          "length": 3,
+          "isHorizontal": true
+        },
+        {
+          "x": 14,
+          "y": 9,
+          "length": 13,
+          "isHorizontal": false
+        },
+        {
+          "x": 14,
+          "y": 22,
+          "length": 10,
+          "isHorizontal": true
+        },
+        {
+          "x": 15,
+          "y": 11,
+          "length": 9,
+          "isHorizontal": true
+        },
+        {
+          "x": 15,
+          "y": 11,
+          "length": 13,
+          "isHorizontal": false
+        },
+        {
+          "x": 15,
+          "y": 24,
+          "length": 2,
+          "isHorizontal": true
+        },
+        {
+          "x": 20,
+          "y": 9,
+          "length": 4,
+          "isHorizontal": true
+        },
+        {
+          "x": 20,
+          "y": 24,
+          "length": 4,
+          "isHorizontal": true
+        },
+        {
+          "x": 28,
+          "y": 10,
+          "length": 9,
+          "isHorizontal": true
+        },
+        {
+          "x": 28,
+          "y": 23,
+          "length": 9,
+          "isHorizontal": true
+        },
+        {
+          "x": 37,
+          "y": 10,
+          "length": 6,
+          "isHorizontal": false
+        },
+        {
+          "x": 37,
+          "y": 18,
+          "length": 5,
+          "isHorizontal": false
+        },
+        {
+          "x": 41,
+          "y": 17,
+          "length": 4,
+          "isHorizontal": true
+        }
+      ]
+    }
+  ],
+  "revisionSignatures": [
+    "CWNlYThiY2VkMDc3MzJhNmQ3MGE3ZGE4NDhiMzYxNGQ1ZTM4OWQzNjdlYjVkNjQyY2VhOGE2NWUzODliNGFiMGMJMTU0NzE0NjMzODc2MAk3NTFiMGQ5YjUyOGFmYzFlYjFhMjEyMjVhNTU4MDMwOTJlMjU4NTdmNDEzNmMxZDJmNGZmYTA1N2QxY2MwYWFi",
+    "Y2VhOGJjZWQwNzczMmE2ZDcwYTdkYTg0OGIzNjE0ZDVlMzg5ZDM2N2ViNWQ2NDJjZWE4YTY1ZTM4OWI0YWIwYwljMmEzMGU4NDgwOGU1ODY4MTA1ZWEwNDU3MWUxNTQ1MDRmYjBmMGQyYmVkYWZjNjFiMzI2M2JhNjk2YTY2YmRiCTE1NDcxNDY0MjEwNDgJNzUxYjBkOWI1MjhhZmMxZWIxYTIxMjI1YTU1ODAzMDkyZTI1ODU3ZjQxMzZjMWQyZjRmZmEwNTdkMWNjMGFhYg\u003d\u003d"
+  ]
+}

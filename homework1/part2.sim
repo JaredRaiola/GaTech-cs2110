@@ -1,0 +1,222 @@
+{
+  "version": "1.8.1",
+  "globalBitSize": 1,
+  "clockSpeed": 1,
+  "circuits": [
+    {
+      "name": "umbrella",
+      "components": [
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.misc.Text",
+          "x": 7,
+          "y": 3,
+          "properties": {
+            "Text": "Jared Raiola jraiola3 903293358"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.misc.Text",
+          "x": 13,
+          "y": 7,
+          "properties": {
+            "Text": "Advice"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.misc.Text",
+          "x": 13,
+          "y": 15,
+          "properties": {
+            "Text": "Cloudy"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.gates.AndGatePeer",
+          "x": 18,
+          "y": 12,
+          "properties": {
+            "Negate 1": "No",
+            "Label location": "NORTH",
+            "Negate 0": "No",
+            "Number of Inputs": "2",
+            "Label": "",
+            "Direction": "EAST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.gates.OrGatePeer",
+          "x": 27,
+          "y": 8,
+          "properties": {
+            "Negate 1": "No",
+            "Label location": "NORTH",
+            "Negate 0": "No",
+            "Number of Inputs": "2",
+            "Label": "",
+            "Direction": "EAST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.PinPeer",
+          "x": 7,
+          "y": 8,
+          "properties": {
+            "Label location": "WEST",
+            "Label": "in",
+            "Is input?": "Yes",
+            "Direction": "EAST",
+            "Bitsize": "3"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.PinPeer",
+          "x": 25,
+          "y": 22,
+          "properties": {
+            "Label location": "EAST",
+            "Label": "out",
+            "Is input?": "No",
+            "Direction": "WEST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.Tunnel",
+          "x": 13,
+          "y": 22,
+          "properties": {
+            "Label": "umbrella",
+            "Direction": "EAST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.Tunnel",
+          "x": 33,
+          "y": 9,
+          "properties": {
+            "Label": "umbrella",
+            "Direction": "WEST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.misc.Text",
+          "x": 14,
+          "y": 11,
+          "properties": {
+            "Text": "Windy"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.SplitterPeer",
+          "x": 11,
+          "y": 11,
+          "properties": {
+            "Label location": "NORTH",
+            "Fanouts": "3",
+            "Input location": "Left/Top",
+            "Label": "",
+            "Bit 2": "2",
+            "Direction": "EAST",
+            "Bit 1": "1",
+            "Bitsize": "3",
+            "Bit 0": "0"
+          }
+        }
+      ],
+      "wires": [
+        {
+          "x": 10,
+          "y": 9,
+          "length": 1,
+          "isHorizontal": true
+        },
+        {
+          "x": 11,
+          "y": 9,
+          "length": 2,
+          "isHorizontal": false
+        },
+        {
+          "x": 13,
+          "y": 9,
+          "length": 4,
+          "isHorizontal": false
+        },
+        {
+          "x": 13,
+          "y": 9,
+          "length": 14,
+          "isHorizontal": true
+        },
+        {
+          "x": 13,
+          "y": 14,
+          "length": 2,
+          "isHorizontal": true
+        },
+        {
+          "x": 13,
+          "y": 15,
+          "length": 5,
+          "isHorizontal": true
+        },
+        {
+          "x": 15,
+          "y": 13,
+          "length": 1,
+          "isHorizontal": false
+        },
+        {
+          "x": 15,
+          "y": 13,
+          "length": 3,
+          "isHorizontal": true
+        },
+        {
+          "x": 18,
+          "y": 15,
+          "length": 1,
+          "isHorizontal": false
+        },
+        {
+          "x": 22,
+          "y": 14,
+          "length": 3,
+          "isHorizontal": true
+        },
+        {
+          "x": 22,
+          "y": 23,
+          "length": 3,
+          "isHorizontal": true
+        },
+        {
+          "x": 25,
+          "y": 11,
+          "length": 2,
+          "isHorizontal": true
+        },
+        {
+          "x": 25,
+          "y": 11,
+          "length": 3,
+          "isHorizontal": false
+        },
+        {
+          "x": 31,
+          "y": 10,
+          "length": 2,
+          "isHorizontal": true
+        }
+      ]
+    }
+  ],
+  "revisionSignatures": [
+    "CTIwYTA0Y2UyNmVmYzM5N2I1NDFkNzVkMDZhOTlkMzhiZDQ1YjBkOWM5YzI1NzhlZTM4NjQ5OGI1NzdkN2U5OTYJMTU0NzE0NjgxNjczNgk0ODc3Y2FhZGFmNjFlODQ1NGM0ZWI0MjA0MTU1MzY3NTcyMTFkMGI1OGY4YTdmZjY2Y2NmNzhkOWNjNDc5Yzgz",
+    "MjBhMDRjZTI2ZWZjMzk3YjU0MWQ3NWQwNmE5OWQzOGJkNDViMGQ5YzljMjU3OGVlMzg2NDk4YjU3N2Q3ZTk5Ngk3YWI3ZDIwMmM4NGZmODllMjU5N2NhNTFhNmVjMjU1YmViYjQ5YjYxMmVhOTc5YjhjOTkxNjFiNDc3NWI5NjQ0CTE1NDcxNDcyMzkwOTYJYTFlYzhkZmQyNGQzNTA0YzA4ZjNjMjQ4ZWZhMWQ4OWM1YzUwOGFiZjE3OWQwZDIzMTdjOWYzNzA1YjhmMmJjZA\u003d\u003d"
+  ]
+}

@@ -1,0 +1,33 @@
+======================================================================
+CS2110                         Lab #13                     Spring 2018
+======================================================================
+
+(This lab is collaborative, so feel free to work with friends or TAs.)
+
+Objective: To begin coding in recursive assembly
+"In order to understand recursion, you must first understand recursion"
+
+You can find an appendix of basic assembly instructions on Canvas under:
+   Files > Assembly Resources > PattPatelAppA.pdf
+
+================
+Your Assignment:
+================
+
+We have provided you with a skeleton assembly file called "fibonacci.asm".
+
+PseudoCode:
+int fibonacci(int n) 
+{ 
+   if (n <= 1) 
+      return n; 
+   return fibonacci(n-1) + fibonacci(n-2); 
+} 
+
+    To Debug:
+	a) run grade.sh
+	b) copy the replay string into complx
+	c) step through your code in complx
+
+
+
